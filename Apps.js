@@ -4,7 +4,7 @@
     angular.module('MenuApp', [])
         .controller('MenuController', MenuController)
         .service('MenuService', MenuService)
-        .constant('ApiBasePath', "https://your-server-url.com");
+        .constant('ApiBasePath', "https://davids-restaurant.herokuapp.com");
 
     MenuController.$inject = ['MenuService'];
     function MenuController(MenuService) {
@@ -62,4 +62,3 @@
     }
 
 })();
-
